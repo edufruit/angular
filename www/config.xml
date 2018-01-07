@@ -42,7 +42,6 @@
         <preference name="phonegap-version"       value="3.5.0" />
     -->
 
-    <content src="https://www.edufruit.com/angularmaterial.html" />
     <!-- Plugins -->
 
     <!-- Core plugins -->
