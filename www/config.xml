@@ -13,10 +13,12 @@
     <preference name="AndroidPersistentFileLocation" value="Compatibility" />
 <preference name="android-minSdkVersion" value="14" />
  
-    <plugin name="cordova-plugin-whitelist" source="npm" spec="~1.2.1" /> 
-
+    <plugin name="cordova-plugin-whitelist" source="npm" spec="~1.2.1" />  
+<allow-navigation href="*" />
+<allow-intent href="*" />
+<access origin="*" />
     
-    <!-- The above is equivalent to these three declarations -->
+    <!-- The above is equivalent to these three declarations
 
 <access origin="http://google.com" />
 <access origin="https://google.com" /> 
@@ -27,7 +29,7 @@
 <access origin="https://youtube.com" /> 
 <access origin="http://*.youtube.com" />
 
-    
+   -->  
     
     <platform name="android">
         <allow-intent href="market:*" />
