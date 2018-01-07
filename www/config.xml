@@ -7,8 +7,8 @@
     <author email="support@phonegap.com" href="http://phonegap.com">
         Skyie
     </author><allow-navigation href="*" />
+   <content src="https://www.edufruit.com/angularmaterial.html" />
 
-    <content src="https://www.mpgi.edu.in/website2/mpec" />
     <preference name="DisallowOverscroll" value="true" />
     <preference name="android-minSdkVersion" value="14" />
     <plugin name="cordova-plugin-battery-status" source="npm" spec="~1.1.1" />
