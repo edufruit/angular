@@ -12,8 +12,42 @@
     <preference name="DisallowOverscroll" value="true" />
     <preference name="AndroidPersistentFileLocation" value="Compatibility" />
 <preference name="android-minSdkVersion" value="14" />
-     <!--  -->  <plugin name="cordova-plugin-whitelist" source="npm" spec="~1.2.1" /> 
  
+    <plugin name="cordova-plugin-whitelist" source="npm" spec="~1.2.1" /> 
+
+    
+    <!-- The above is equivalent to these three declarations -->
+<allow-navigation href="http://*/*" />
+<allow-navigation href="https://*/*" />
+<allow-navigation href="data:*" />
+    
+    
+    
+<!-- Allow links to web pages to open in a browser -->
+<allow-intent href="http://*/*" />
+<allow-intent href="https://*/*" />
+
+<!-- Allow links to example.com to open in a browser -->
+<allow-intent href="http://example.com/*" />
+
+<!-- Wildcards are allowed for the protocol, as a prefix
+     to the host, or as a suffix to the path -->
+<allow-intent href="*://*.example.com/*" />
+
+<!-- Allow SMS links to open messaging app -->
+<allow-intent href="sms:*" />
+
+<!-- Allow tel: links to open the dialer -->
+<allow-intent href="tel:*" />
+
+<!-- Allow geo: links to open maps -->
+<allow-intent href="geo:*" />
+
+<!-- Allow all unrecognized URLs to open installed apps
+     *NOT RECOMMENDED* -->
+<allow-intent href="*" />
+    
+    
     <access origin="*" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
